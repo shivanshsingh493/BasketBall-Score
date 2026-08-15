@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Basketball Score</title>
+        <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="box-container">
+
+                <div class="inner-container">
+                    <div id="home">
+                        <h1>HOME</h1>
+                        <div class="board">
+                            <span class="content" id="score-home"></span>
+                        </div>
+                        <button class="btn" onclick="sum1home()">+1</button>
+                        <button class="btn" onclick="sum2home()">+2</button>
+                        <button class="btn" onclick="sum3home()">+3</button>    
+                    </div>
+
+                    <div id="guest">
+                        <h1>GUEST</h1>
+                        <div class="board">
+                            <span class="content" id="score-guest"></span>
+                        </div>
+                        <button class="btn" onclick="sum4guest()">+1</button>
+                        <button class="btn" onclick="sum5guest()">+2</button>
+                        <button class="btn" onclick="sum6guest()">+3</button>
+                    </div>
+                </div>
+                
+               
+                <div id="clear1">
+                    <button class="clear-btn" onclick="reset()">New Game</button>
+                </div>
+            
+            </div>
+            
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>

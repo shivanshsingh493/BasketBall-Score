@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Verdana", sans-serif ;
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+}
+@font-face{
+    src : url("CursedTimerUlil-Aznm.ttf");
+    font-family: "CursedTimerUlil-Aznm";
+}
+
+.container{
+    height: 100vh;
+    background : #065F46; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-container{
+    width: 575px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #D1FAE5;
+    border: none;
+    border-radius: 5px;
+    padding: 60px 20px;
+}
+
+h1{
+
+    font-size: 40px;
+}
+
+.clear-btn{
+    color: white;
+    background: #065F46;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: "CursedTimerUlil-Aznm";
+}
+
+.inner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(29, 29, 28);
+
+}
+
+
+
+.board{
+    height: 140px;
+    width: 175px;
+    border-radius: 5px;
+    background: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    font-family: "CursedTimerUlil-Aznm";
+    color: #F94F6D;
+    font-size: 90px; 
+}
+
+.btn{
+    width: 45px;
+    height: 45px; 
+    border-radius: 5px;
+    margin: 30px 5px; 
+    border: 2px solid #065F46;
+    background: #D1FAE5;
+    font-family: "CursedTimerUlil-Aznm";
+    font-size: 18px;
+} 
